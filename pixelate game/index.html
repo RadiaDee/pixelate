@@ -2,22 +2,29 @@
 <html>
   <head>
     <title>Pixelate</title>
-    <!-- This gets us our fun 8-bit font from Google Fonts -->
+<!-- This gets us our fun 8-bit font from Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 
-    <!-- loads our own CSS file -->
+<!-- link to CSS file -->
     <link rel="stylesheet" href="/style.css" />
   </head>
+
+<!-- the following html tags are used to create the DOM -->
   <body>
     <h1>Pixelate</h1>
     <div>
       <button id='add-row'>Add a row</button>
       <select>
-        <!-- add options here! -->
+<!-- add options here! -->
       </select>
     </div>
-    <table></table>
+
+<!-- table which has <tr> rows and <td> data cells -->
+    <table>
+        <!-- no need for tr or td they will be created in js -->
+   
+    </table>
   </body>
-  <!-- loads our JavaScript file -->
-  <script type="text/javascript" src="/script.js"></script>
+<!-- loads our JavaScript file has to be at bottom to access all DOM element in html -->
+  <script type="text/javascript" src="script.js"></script>
 </html>
