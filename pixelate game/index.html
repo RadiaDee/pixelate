@@ -4,8 +4,8 @@
     <title>Pixelate</title>
 <!-- This gets us our fun 8-bit font from Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-
-<!-- link to CSS file -->
+<!-- This contains the HTML that browser will use to make DOM -->
+<!-- link tag to CSS file CSS resources -->
     <link rel="stylesheet" href="/style.css" />
   </head>
 
@@ -14,15 +14,25 @@
     <h1>Pixelate</h1>
     <div>
       <button id='add-row'>Add a row</button>
-      <select>
-<!-- add options here! -->
+      <select id="select-tag">
+<!-- under select element use option to choose a css color class -->
+        <option value ='red'>Red</option>
+        <option value ='blue'>Blue</option>
       </select>
     </div>
 
 <!-- table which has <tr> rows and <td> data cells -->
+
+<!-- Originally looked like this td styling in CSS
+
+<tr>
+  <td></td>
+</tr>
+
+-->
     <table>
         <!-- no need for tr or td they will be created in js -->
-   
+        <!-- the td are populated in js and then styled in css -->
     </table>
   </body>
 <!-- loads our JavaScript file has to be at bottom to access all DOM element in html -->

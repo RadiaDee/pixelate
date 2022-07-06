@@ -22,3 +22,16 @@
   }
   
   /* your CSS below! */
+
+  .red {
+    background-color: red;
+  }
+
+  .green {
+    background-color: rgb(62, 143, 98);
+  }
+
+
+  .blue {
+    background-color: rgb(56, 63, 163);
+  }
